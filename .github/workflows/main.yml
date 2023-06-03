@@ -76,3 +76,10 @@ jobs:
       run: |
        cd ReBarState/build
        cmake --build .
+       
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+       name: Rebra_Dev test
+       path: ReBarState/build/MyProgram
+
