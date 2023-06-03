@@ -62,3 +62,6 @@ jobs:
       with:
         name: ReBarState Windows
         path: ${{github.workspace}}/build/Release/ReBarState.exe
+        
+    - name: Reebra DEV
+      uses: actions/checkout@v2
