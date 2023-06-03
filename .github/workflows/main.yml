@@ -70,4 +70,4 @@ jobs:
       run: | 
        mkdir -p ReBarState/build 
        cd ReBarState/build 
-       cmake -DCMAKE_BUILD_TYPE=<build_type> ..
+       cmake -DCMAKE_BUILD_TYPE=<dev_bra> ..
