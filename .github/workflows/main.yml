@@ -65,3 +65,9 @@ jobs:
         
     - name: Reebra DEV
       uses: actions/checkout@v2
+
+    - name: Configure CMake
+      run: | 
+       mkdir -p ReBarState/build 
+       cd ReBarState/build 
+       cmake -DCMAKE_BUILD_TYPE=<build_type> ..
